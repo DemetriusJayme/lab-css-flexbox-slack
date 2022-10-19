@@ -11,11 +11,13 @@
 </head>
 
 <body>
+  <div class="version"></div>
+  
   <nav>
     <div>
       <span class="logo"></span>
   
-      <ul>
+      <ul class="menu-left">
         <li>
           <a href="#">Product</a>
         </li>
@@ -35,7 +37,9 @@
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
-
+      <button  class="menu-responsive">
+        <img src="./images/icon-menu.png" alt="Menu icon">
+      </button>
 
       <ul class="menu-right">
         <li>
@@ -55,11 +59,11 @@
 
       <div class="row">
         <div class="col-6">
-          <h3 class="mb2">Great teamwork starts with a digital HQ</h3>
+          <h3 class="mb2 tcwhite">Great teamwork starts with a digital HQ</h3>
 
-          <h5 class="width60 mb1 "><a href="#">Slack is free</a> to try for as long as you'd like.</h5>
+          <h5 class="width60 mb1 tcwhite"><a href="#">Slack is free</a> to try for as long as you'd like.</h5>
 
-          <div class="flex mt1 ">
+          <div class="flex mt1 sign-in">
             <button class="btn">Sign up with email</button>
     
             <button class="btn-blue">
@@ -77,23 +81,24 @@
     </div>
   </section>
 
+<!-- COMPANIES-->
+  <section class="bgivory">
+    <div class="container">
+      <h5 class="flex center mb5 uppercase">Trusted by companies all over the world</h5>
 
-    <section class="bgivory">
-      <div class="container">
-        <h5 class="flex center mb5 uppercase">Trusted by companies all over the world</h5>
-
-        <div class="companies flex center mb2 mt2">
-          <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-          <img src="./images/logo-nasa.png" alt="NASA logo" />
-          <img src="./images/logo-uber.png" alt="Uber logo" />
-          <img src="./images/logo-target.png" alt="Target logo" />
-          <img src="./images/logo-nyt.png" alt="New York Times logo" />
-          <img src="./images/logo-spotify.png" alt="Spotify logo" />
-        </div>
+      <div class="companies flex wrap center mb2 mt2">
+        <img class="mb1" src="./images/logo-airbnb.png" alt="Airbnb logo" />
+        <img class="mb1" src="./images/logo-nasa.png" alt="NASA logo" />
+        <img class="mb1" src="./images/logo-uber.png" alt="Uber logo" />
+        <img class="mb1" src="./images/logo-target.png" alt="Target logo" />
+        <img class="mb1" src="./images/logo-nyt.png" alt="New York Times logo" />
+        <img class="mb1" src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
-    </section>
-
-    <section class="bgivory">
+    </div>
+  </section>
+<!-- BENEFITS -->
+  <section class="bgivory benefits">
+      <!-- LINE 1 -->
       <div class="row">
         <div class="half">
           <img src="./images/connectedness-mobile.png" alt="connectedness" />
@@ -116,9 +121,7 @@
    
         </div>
       </div>
-    </section>
-
-    <section class="bgivory">
+      <!-- LINE 2 -->
       <div class="row">
 
         <div class="half flex middle ">
@@ -142,9 +145,7 @@
         </div>
 
       </div>
-    </section>
-
-    <section class="bgivory">
+      <!-- LINE 3 -->
       <div class="row">
         <div class="half">
           <img src="./images/speed-mobile.png" alt="speed" />
@@ -167,7 +168,7 @@
    
         </div>
       </div>
-    </section>
+  </section>
 
     
     <section>
@@ -211,7 +212,7 @@
 
     <section class="bgpurple tcwhite curve">
       <div class="container">
-        <h4 class="flex center mb2 mt2">Welcome to your new digital HQ</h4>
+        <h4 class="flex center mb2 mt2 tc tcwhite">Welcome to your new digital HQ</h4>
 
         <div class="flex center ">
           <button class="btn-white">Try for free</button>
@@ -221,7 +222,6 @@
       </div>
    
     </section>
-    <div class=""> <h1></h1></div>
 
   </main>
 
@@ -231,7 +231,7 @@
         <img src="./images/iso-slack.png" alt="Slack logo" />
         <div class="flex flex-between">
           <ul>
-            <li>WHY SLACK?</li>
+            <li class="w700">WHY SLACK?</li>
             <li>Slack vs. Email</li>
             <li>Channels</li>
             <li>Engagement</li>
@@ -240,7 +240,7 @@
           </ul>
 
           <ul>
-            <li>PRODUCT</li>
+            <li class="w700">PRODUCT</li>
             <li>Features</li>
             <li>Integrations</li>
             <li>Enterprise</li>
@@ -249,13 +249,13 @@
           </ul>
 
           <ul>
-            <li>PRICING</li>
+            <li  class="w700">PRICING</li>
             <li>Plans</li>
             <li>Paid vs. Free</li>
           </ul>
 
           <ul>
-            <li>COMPANY</li>
+            <li  class="w700">COMPANY</li>
             <li>About Us</li>
             <li>Leadership</li>
             <li>Investor Relations</li>
@@ -267,7 +267,7 @@
 
         <hr class="">
 
-        <ul class="flex flex-between">
+        <ul class="flex flex-between menu-footer2 w700">
           <li>Status</li>
           <li>Privacy</li>
           <li>Terms</li>
@@ -319,3 +319,4 @@ Footer navigation
     Training
     Blog
     About
+
